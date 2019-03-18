@@ -30,7 +30,7 @@ somercurleridbash# watch curl -s http://order.default.svc.cluster.local:5000
 ```
 This should show the output of all the three services. (Keep it running in different terminal)
 
-###Canary checking
+## Canary checking
 
 ### Deploy v1.5 of Customer SVC
 1. Deploy services of v1.5 in EKS cluster
