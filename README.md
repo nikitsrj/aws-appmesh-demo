@@ -25,10 +25,10 @@ cd ../k8s-deploy
 ```
 kubectl run -it curler --image=tutum/curl --env="SERVICES_DOMAIN=default.svc.cluster.local" bash
 
-somercurleridbash# curl http://order.default.svc.cluster.local:5000
+somercurleridbash# watch curl -s http://order.default.svc.cluster.local:5000
 
 ```
-This should show the output of all the three services.
+This should show the output of all the three services. (Keep it running in different terminal)
 
 ##Canary checking
 
