@@ -1,6 +1,9 @@
 # aws-appmesh-demo
 This repository includes sample app and appmesh config for the aws meetup demo
 
+
+<img src="https://github.com/nikitsrj/aws-appmesh-demo/blob/master/Screenshot_20190322_012432.png"/>
+
 Pre-requisites
 1. EKS Cluster
 2. Latest AWS CLI
