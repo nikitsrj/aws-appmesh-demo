@@ -70,6 +70,7 @@ cd k8s-app
 ./remove_deploys.sh
 ```
 
+### Note: This repository has been forked by https://github.com/janakiramm/app-mesh-tutorial, but also modified after new feature "Virtual Service".
 
 
 
